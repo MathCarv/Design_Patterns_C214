@@ -4,7 +4,7 @@ import observer
 class TesteStrategy(unittest.TestCase):
 
     def setUp(self):
-        self.dados = [5, 2, 7, 1, 9]
+        self.dados = [6, 9, 3, 8, 2]
 
     def test_InstanciaObserver(self):
         ob = observer.Observer()
@@ -12,16 +12,16 @@ class TesteStrategy(unittest.TestCase):
         self.assertIsInstance(ob, observer.Observer, erro)
 
     def test_ContadorDePalavras(self):
-        resultado = observer.contador_de_palavras('existem tres palavras')
-        self.assertEqual(resultado, 3)
+        resultado = observer.contador_de_palavras('este teste possui seis palavras')
+        self.assertEqual(resultado, 6)
 
     def test_Contador_De_Palavras_Pares(self):
-        resultado2 = observer.contador_de_palavras_pares('existem tres palavras')
-        self.assertEqual(resultado2, 2)
+        resultado2 = observer.contador_de_palavras_pares('este teste possui seis palavras')
+        self.assertEqual(resultado2, 3)
 
     def test_Contador_De_Palavras_Maiusculas(self):
-        resultado2 = observer.contador_palavras_maisculo('existem Tres palavras')
-        self.assertEqual(resultado2, 1)
+        resultado2 = observer.contador_palavras_maisculo('este Teste possui Seis Palavras')
+        self.assertEqual(resultado2, 3)
 
 
 if __name__ == '__main__':
