@@ -1,20 +1,20 @@
 # Exercício de Design Patterns
 
-### Descrição
+## Descrição
 
 Este repositório contém o código relacionado ao exercício de Design Patterns. O exercício tem como objetivo explorar a implementação dos padrões Observer e Strategy em um contexto de ordenação de dados.
 
-### Padrões de Design Utilizados
+## Padrões de Design Utilizados
 
-## Observer 
+### Observer 
 
 O padrão Observer é utilizado para estabelecer uma comunicação de "um-para-muitos" entre um objeto chamado de "observável" e vários objetos chamados de "observadores". No contexto desse exercício, o padrão Observer é utilizado para notificar os observadores sobre a análise de frases.
 
-## Strategy 
+### Strategy 
 
 O padrão Strategy é utilizado para definir uma família de algoritmos, encapsulá-los e torná-los intercambiáveis. No contexto desse exercício, o padrão Strategy é utilizado para implementar diferentes estratégias de ordenação dos dados.
 
-### Funcionalidade
+## Funcionalidade
 
 O código fornecido contém as seguintes funcionalidades:
 
