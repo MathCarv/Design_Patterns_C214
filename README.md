@@ -14,7 +14,7 @@ O padrão Observer é utilizado para estabelecer uma comunicação de "um-para-m
 
 O padrão Strategy é utilizado para definir uma família de algoritmos, encapsulá-los e torná-los intercambiáveis. No contexto desse exercício, o padrão Strategy é utilizado para implementar diferentes estratégias de ordenação dos dados.
 
-## Funcionalidade
+### Funcionalidade
 
 O código fornecido contém as seguintes funcionalidades:
 
